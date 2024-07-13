@@ -108,7 +108,7 @@ const CSSLearningApp = () => {
   flex-direction: ${flexDirection};
   justify-content: ${justifyContent};
   align-items: ${alignItems};
-  height: 200px;
+  height: 400px; /* Increased height */
   border: 4px solid #22c55e; /* green-500 */
   background-color: lightgreen;
 }
@@ -132,7 +132,8 @@ const CSSLearningApp = () => {
                 flexDirection,
                 justifyContent,
                 alignItems,
-                height: '200px',
+                height: '400px',
+                width: '400px', // Increased height
                 backgroundColor: 'lightgreen',
               }}
             >
